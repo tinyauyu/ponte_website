@@ -1,0 +1,6 @@
+{
+	"soprano": [{"name_chi": "曾愷忻", "name_eng": "Bernice Tsang"}, {"name_chi": "張筱瑋", "name_eng": "Amanda Cheung"}, {"name_chi": "張育瑜", "name_eng": "Jasmine Cheung"}, {"name_chi": "陳穎", "name_eng": "Victoria Chan"}, {"name_chi": "袁皓明", "name_eng": "Krystal Yuen"}, {"name_chi": "譚凱螢", "name_eng": "Tracy Tam"}, {"name_chi": "柯慧心", "name_eng": "Davina Or"}, {"name_chi": "劉泳彤", "name_eng": "Priscilla Lau"}],
+	"alto": [{"name_chi": "張慧文", "name_eng": "Lilian Cheung"}, {"name_chi": "雷凱婷", "name_eng": "Heidi Lui"}, {"name_chi": "唐善彤", "name_eng": "Jojo Tong"}, {"name_chi": "陳熙文", "name_eng": "Mandy Chan"}, {"name_chi": "何復加", "name_eng": "Karis Ho"}, {"name_chi": "蘇欣琪", "name_eng": "Christie So"}, {"name_chi": "區琬坤", "name_eng": "Able Au"}],
+	"tenor": [{"name_chi": "黃澤朗", "name_eng": "Darren Wong"}, {"name_chi": "勞卓標", "name_eng": "Bill Lo"}, {"name_chi": "仇紹謙", "name_eng": "Andy Chau"}, {"name_chi": "李溢昇", "name_eng": "Philip Lee"}, {"name_chi": "蔡浩賢", "name_eng": "John Choi"}],
+	"bass":[{"name_chi": "潘彥希", "name_eng": "Isaac Poon"}, {"name_chi": "鍾偉亮", "name_eng": "William Chung"}, {"name_chi": "梁梓浩", "name_eng": "Stephen Leung"}, {"name_chi": "李浩源", "name_eng": "Henry Li"}, {"name_chi": "尹裕庭", "name_eng": "Justin Wan"}, {"name_chi": "張賢強", "name_eng": "Andrew Cheung"}]
+}

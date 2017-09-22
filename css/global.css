@@ -1,0 +1,107 @@
+body{
+	background-image: url('/images/bg.jpg');
+	background-repeat: repeat;
+}
+
+div#page-range {
+	max-width: 1024px;
+	margin: 15px;
+	border-radius: 10px;
+	border: 1px solid #DCDCDC;
+	background-color: white;
+}
+
+div#page-menu {
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+nav#page-nav {
+	background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(240, 240, 240, 1));
+	border: none;
+}
+
+div#page-header{
+	position:relative;
+	top:-65px;
+	left:-20px;
+	z-index:2;
+	width: 200px;
+}
+
+img#page-logo{
+	margin-top: 7px;
+	padding-left: 20px;
+	width: 150px
+}
+
+div#menu-item{
+	border:none;
+}
+
+div#page-content{
+	overflow: auto;
+}
+
+div#page-bottom{
+	margin: 15px;
+	overflow: auto;
+}
+
+h2#page-title{
+	margin-top: 250px;
+	color: white;
+	font-weight: bold;
+}
+
+div#text{
+	padding: 20px;
+}
+
+.justify{
+	text-align: justify;
+}
+
+.center{
+	text-align: center;
+}
+
+.css_table {
+    display:table;
+    border-collapse: separate;
+  	border-spacing: 10px;
+  	font-size: 12px;
+}
+.css_tr {
+      display: table-row;
+}
+.css_td {
+      display: table-cell;
+      min-width: 40px;
+}
+.css_td_narrow {
+	display: table-cell;
+}
+
+* {
+	font-family: 微軟正黑體;
+}
+html {
+	display: table;
+	margin: auto;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div.fullscreen {
+	 
+	width:100%; 
+	height:100%; 
+	z-index:999;
+	top:0; 
+	left:0; 
+	position:fixed; 
+}

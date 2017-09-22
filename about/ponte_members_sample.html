@@ -1,0 +1,249 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Ponte Singers</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<style>
+		* {
+			font-family: 微軟正黑體;
+		}
+		</style>
+	</head>
+	<body style="background-image: url('/images/bg.jpg'); background-repeat: repeat">
+	
+	<!--- facebook plugin --->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4&appId=123779107687769";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!--- facebook plugin --->
+	
+	<div id="page-range" style="margin:15px; border-radius: 10px; border: 1px solid #DCDCDC; background-color: white;">
+		<div id="page-menu" style="padding-top: 50px; padding-bottom: 10px;">
+			<nav class="navbar navbar-default navbar-static-top">
+			  <div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#">
+					
+					<div id="page-header" style="position:relative; top:-65px; left:-20px; z-index:999; width: 200px;">
+						<img alt="Ponte Singers" src="/images/logo.png" style="padding-left: 20px; width: 150px">
+			
+					</div>
+				  </a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav navbar-right">
+					<li><a href="#" onclick="loadPage('index.html')">首頁</a></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">關於 Ponte <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="#" onclick="loadPage('ponte_mission.html')">樂團宗旨</a></li>
+						<li><a href="#" onclick="loadPage('ponte_intro.html')">樂團簡介</a></li>
+						<li><a href="#" onclick="loadPage('ponte_members.html')">樂團成員</a></li>
+						<li><a href="#" onclick="loadPage('ponte_conductor.html')">樂團指揮</a></li>
+						<li><a href="#" onclick="loadPage('ponte_exco.html')">行政人員</a></li>
+					  </ul>
+					</li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">活動及演出 <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="#" onclick="loadPage('activity_updates.html')">最新動向</a></li>
+						<li><a href="#" onclick="loadPage('activity_timetable.html')">排練時間表</a></li>
+						<li><a href="#" onclick="loadPage('activity_pastevent.html')">過往演出</a></li>
+						<li><a href="#" onclick="loadPage('activity_corporation.html')">合作樂手一覽</a></li>
+						<li><a href="#" onclick="loadPage('activity_works.html')">首演及委約作品</a></li>
+						<li><a href="#" onclick="loadPage('activity_review.html')">過往評論</a></li>
+					  </ul>
+					</li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">影片及相片 <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="#" onclick="loadPage('media_photo.html')">相片集</a></li>
+						<li><a href="#" onclick="loadPage('media_video.html')">音樂會影片</a></li>
+					  </ul>
+					</li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">撐撐 Ponte <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="#" onclick="loadPage('support_join.html')">加入 Ponte</a></li>
+						<li><a href="#" onclick="loadPage('support_donation.html')">捐款表格</a></li>
+					  </ul>
+					</li>
+					<li><a href="#" onclick="loadPage('contactus.html')">聯絡我們</a></li>
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		
+		
+		
+		
+		<div id="page-content">
+		
+			<div class="jumbotron" style="background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),url('/images/ponte_member_2015.jpg'); background-size: cover; height:40%; padding: 20px;">
+			  <h2 id="title" style="margin-top: 250px; color: white; font-weight: bold;">樂團成員</h2>
+			 
+			</div>
+			<div id="text" style="padding: 20px;">
+			<span>
+				Ponte Singers 人才濟濟，每年皆吸納本地富合唱經驗、熱衷音樂的青年，自幼開始接受聲樂及合唱訓練；而 Ponte Orchestra 的成員大多都是來自本地及海外大學的音樂系畢業生，並從事音樂教育或樂團職業樂手。自2010成立至今，參加過Ponte的樂手已經超逾500人。<br><br>
+				我們每一位，都抱有一份對音樂的執著和熱情，期望能夠把更多不同種類的音樂帶給您們。
+			</span>
+			
+			<ul class="nav nav-tabs" style="margin-top: 15px;">
+				<li role="presentation" class="active"><a href="javascript:;">2015</a></li>
+				<li role="presentation"><a href="javascript:loadPage('ponte_members_2014.html');">2014</a></li>
+				<li role="presentation"><a href="javascript:loadPage('ponte_members_2013.html');">2013</a></li>
+				<li role="presentation"><a href="javascript:loadPage('ponte_members_2012.html');">2012</a></li>
+				<li role="presentation"><a href="javascript:loadPage('ponte_members_2011.html');">2011</a></li>
+				<li role="presentation"><a href="javascript:loadPage('ponte_members_2010.html');">2010</a></li>
+			</ul>
+			
+			<nav>
+			  <ul id="menu" class="pager">
+				<li><a href="#" onclick="scrollTo('#choir')">合唱團</a></li>
+				<li><a href="#" onclick="scrollTo('#orch')">管弦樂團</a></li>
+			  </ul>
+			</nav>
+				<div id="choir" class="thumbnail" style="overflow: auto;">
+				
+					<img src="/images/ponte_member_2015_choir.jpg" alt="2014 Choir">
+					<div class="caption" style="overflow: auto;">
+					<h2 style="text-weight: bold">2015 「聽．海」音樂會 - Ponte Singers 合唱團團員名單</h2>
+					
+						<div class="col-md-3">
+							<h3>女高音</h3>
+							<div class="css_table 2015 soprano"></div>
+						</div>
+						<div class="col-md-3">
+							<h3>女低音</h3>
+							<div class="css_table 2015 alto"></div>
+						</div>
+						<div class="col-md-3">
+							<h3>男高音</h3>
+							<div class="css_table 2015 tenor"></div>
+						</div>
+						<div class="col-md-3">
+							<h3>男低音</h3>
+							<div class="css_table 2015 bass"></div>
+						</div>
+					</div>
+					<div id="bottom" class="col-md-12" style="">
+						<a href="#" onclick="scrollTo('#menu')" style="float: right;"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true">回目錄</span></a>
+					</div>
+				</div>
+			
+			
+			<div id="orch" class="thumbnail" style="overflow: auto;">
+				
+					<img src="/images/ponte_member_2015_orch.jpg" alt="2015 Orchestra">
+					<div class="caption" style="overflow: auto;">
+					<h2 style="text-weight: bold;">2015 「聽．海」音樂會 - Ponte Orchestra 管弦樂團團員名單</h2>
+						<div class="col-md-3">
+							<h3>第一小提琴 First Violin</h3>
+							<div class="css_table 2015 violin_I"></div>
+							<h3>第二小提琴 Second Violin</h3>
+							<div class="css_table 2015 violin_II"></div>
+						</div>
+						<div class="col-md-3">
+							<h3>中提琴 Viola</h3>
+							<div class="css_table 2015 viola"></div>
+							<h3>大提琴 Cello</h3>
+							<div class="css_table 2015 cello"></div>
+							<h3>低音大提琴 Double Bass</h3>
+							<div class="css_table 2015 double_bass"></div>
+						</div>
+						<div class="col-md-3">
+							<h3>長笛/短笛 Flute/Piccolo</h3>
+							<div class="css_table 2015 flute"></div>
+							<h3>雙簧管 Oboe</h3>
+							<div class="css_table 2015 oboe"></div>
+							<h3>英國號 English Horn</h3>
+							<div class="css_table 2015 english_horn"></div>
+							<h3>單簧管 Clarinet</h3>
+							<div class="css_table 2015 clarinet"></div>
+							<h3>低音單簧管 Bass Clarinet</h3>
+							<div class="css_table 2015 bass_clarinet"></div>
+							<h3>巴松管 Bassoon</h3>
+							<div class="css_table 2015 basson"></div>
+
+						</div>
+						<div class="col-md-3">
+							<h3>圓號 Horn</h3>
+							<div class="css_table 2015 horn"></div>
+							<h3>小號 Trumpet</h3>
+							<div class="css_table 2015 trumpet"></div>
+							<h3>長號 Trombone</h3>
+							<div class="css_table 2015 trombone"></div>
+							<h3>大號 Tuba</h3>
+							<div class="css_table 2015 tuba"></div>
+							<h3>定音鼓 Timpani</h3>
+							<div class="css_table 2015 timpani"></div>
+							<h3>敲擊 Percussion</h3>
+							<div class="css_table 2015 percussion"></div>
+							<h3>豎琴 Harp</h3>
+							<div class="css_table 2015 harp"></div>
+							<h3>管風琴 Organ</h3>
+							<div class="css_table 2015 organ"></div>
+						</div>
+					</div>
+					<div id="bottom" class="col-md-12" style="">
+						<a href="#" onclick="scrollTo('#menu')" style="float: right;"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true">回目錄</span></a>
+					</div>
+				</div>
+				
+			</div>
+		
+		</div>
+		
+		
+		
+		<div id="page-bottom" style="margin: 15px;">
+		<span style="float: right;">© 2015 Ponte Singers</span>
+		</div>
+	
+	<script>
+		function loadPage(page){
+			$("#page-content").load(page+" #page-content");
+		}
+		function scrollTo(pos){
+			var divPosition = $(pos).offset();
+			$('html, body').animate({scrollTop: divPosition.top}, "slow");
+		}
+	</script>
+	</body>
+<html>
